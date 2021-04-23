@@ -43,6 +43,7 @@ flex-direction: row;
     width: 100%;
     background-color:hsl(244, 38%, 16% );
     opacity: 0.5px;
+     mix-blend-mode: color-dodge !important; -webkit-filter: saturate(400%) contrast(150%); filter: saturate(400%) contrast(150%) opacity(250%) brightness(50%); 
 }
 h1{
     font-family: 'Inter', sans-serif; 
